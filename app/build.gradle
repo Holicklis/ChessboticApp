@@ -44,6 +44,7 @@ android {
             path file('src/main/jni/Android.mk')
         }
     }
+    namespace 'com.example.ChessPlayerApp'
     /*    tasks.withType(JavaCompile) {
         configure(options) {
             options.encoding = 'UTF-8'
